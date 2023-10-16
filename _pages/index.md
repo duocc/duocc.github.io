@@ -21,7 +21,7 @@ This web site is the documentation for the theme and also provides examples of h
 
 <hr />
 
-### Recent Posts
+### 最新贴文
 
 {% for post in site.posts limit:3 %}
 {% include components/post-card.html %}
