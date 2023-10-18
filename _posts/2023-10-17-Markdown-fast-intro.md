@@ -1,9 +1,11 @@
 ---
-title:  首发测试
+title:  Markdown快速入门手册
 tags:
-  - icons
-  - Friday Theme
-  - CSS
+  - Markdown
+  - 排版工具
+  - 微信公众号
+  - 知乎
+  - Markdown语法教程
 ---
 
 >微信公众号排版工具。问题或建议，请公众号留言。**[程序员翻身](#jump_8)**
