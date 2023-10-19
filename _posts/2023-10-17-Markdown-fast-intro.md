@@ -6,6 +6,10 @@ tags:
   - 微信公众号
   - 知乎
   - Markdown语法教程
+ images:
+  - https://markdown.com.cn/images/blue.jpg
+  - https://markdown.com.cn/images/green.jpg
+  - https://markdown.com.cn/images/red.jpg
 ---
 
 >微信公众号排版工具。问题或建议，请公众号留言。**[程序员翻身](#jump_8)**
@@ -250,7 +254,26 @@ Markdown Nice 这么好用，简直是{喜大普奔|hē hē hē hē}呀！
 
 通过`<![](url),![](url)>`这种语法设置横屏滑动滑动片，具体用法如下：
 
-<![蓝1](https://markdown.com.cn/images/blue.jpg),![绿2](https://markdown.com.cn/images/green.jpg),![红3](https://markdown.com.cn/images/red.jpg)>
+
+
+<div id="carouselExampleControls" class="carousel slide mb-4" data-ride="carousel">
+    <div class="carousel-inner">
+        {% for img in page.images %}
+            <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                <img src="{{ img }}" class="d-block w-100" alt="">
+            </div>
+        {% endfor %}
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
 
 ## 4 其他语法
 
