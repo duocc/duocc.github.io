@@ -6,10 +6,10 @@ tags:
   - 微信公众号
   - 知乎
   - Markdown语法教程
- images:
+images:
   - https://markdown.com.cn/images/blue.jpg
   - https://markdown.com.cn/images/green.jpg
-  - https://markdown.com.cn/images/red.jpg
+  - https://markdown.com.cn/images/red.jpg  
 ---
 
 >微信公众号排版工具。问题或建议，请公众号留言。**[程序员翻身](#jump_8)**
