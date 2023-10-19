@@ -11,7 +11,16 @@ tags:
 
 公共场合，极少见到有人被自己的狗拉着一边到处跑，或者厉声训斥自己的狗子，更很少听到狗子们随意狂吠。大部分狗，都不会主动缠着陌生人，做出攻击性的动作。
 <!--more-->
-![这是全欧洲规模最大的动物收容所——柏林动物之家](https://p5.itc.cn/images01/20220618/a746396cc61f42e9b4f1d76491a8968a.jpeg)
+
+<div class="card mb-3">
+    <img class="card-img-top" src="https://p5.itc.cn/images01/20220618/a746396cc61f42e9b4f1d76491a8968a.jpeg"/>
+    <div class="card-body bg-light">
+        <div class="card-text">
+            这是全欧洲规模最大的动物收容所——柏林动物之家
+        </div>
+    </div>
+</div>
+
 难道“西洋狗”，就天生如此自律吗？
 
 实际上，这些“自律西洋狗”，那都是花了不少钱和心血，“砸”出来的。
