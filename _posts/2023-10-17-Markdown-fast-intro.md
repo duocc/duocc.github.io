@@ -250,17 +250,20 @@ Markdown Nice 这么好用，简直是{喜大普奔|hē hē hē hē}呀！
 
 通过`<![](url),![](url)>`这种语法设置横屏滑动滑动片，具体用法如下：
 
-<![蓝1](https://markdown.com.cn/images/blue.jpg),![绿2](https://markdown.com.cn/images/green.jpg),![红3](https://markdown.com.cn.jpg)>
+<![蓝1](https://markdown.com.cn/images/blue.jpg),![绿2](https://markdown.com.cn/images/green.jpg),![红3](https://markdown.com.cn/images/red.jpg)>
 
 ## 4 其他语法
 
 ### 4.1 HTML
 
 支持原生 HTML 语法，请写内联样式，如下：
+```
+<span style="display:block;text-align:right;color:orangered;">橙色居右</span>
+<span style="display:block;text-align:center;color:orangered;">橙色居中</span>
+```
 
 <span style="display:block;text-align:right;color:orangered;">橙色居右</span>
 <span style="display:block;text-align:center;color:orangered;">橙色居中</span>
-
 ### 4.2 UML
 
 不支持，推荐使用开源工具`https://draw.io/`制作后再导入图片
